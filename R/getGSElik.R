@@ -11,7 +11,7 @@
 #'
 #'
 
-get_GSE_links <- function(studyID = "GSE1009", down = F, destdir = "./") {
+get_GSE_link <- function(studyID = "GSE1009", down = F, destdir = "./") {
     ## studyID destdir ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE1nnn/GSE1009/matrix/GSE1009_series_matrix.txt.gz
     ## ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE1nnn/GSE1009/suppl/GSE1009_RAW.tar
     ## http://www.ncbi.nlm.nih.gov/geo/browse/?view=samples&mode=csv&series=1009

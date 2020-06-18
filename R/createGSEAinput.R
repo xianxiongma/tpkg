@@ -13,7 +13,7 @@
 #' #' createGSEAinput('GSE1009',exprSet,group_list)
 
 
-createGSEAinput <- function(prefix = "GSE1009", exprSet = example_exprSet, group_list, destdir = ".") {
+createGSEAinputs <- function(prefix = "GSE1009", exprSet = example_exprSet, group_list, destdir = ".") {
     # sink('outfile.txt') cat('hello') cat('\n') cat('world') sink()
     gct_file = paste0(prefix, ".gct")
     sink(gct_file)
